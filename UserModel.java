@@ -1,4 +1,5 @@
 public class UserModel {
+    
     protected int id;
     protected String name;
     protected String gender;

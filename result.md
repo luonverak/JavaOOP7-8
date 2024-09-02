@@ -15,7 +15,6 @@ gender,
 major,
 price's major,
 year
-
 score x3,
 total,
 average
