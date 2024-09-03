@@ -1,4 +1,5 @@
 public class Department {
+    
     protected int id;
     protected String name;
     protected float price;
@@ -28,6 +29,11 @@ public class Department {
 
     public int getYear() {
         return year;
+    }
+
+    @Override
+    public String toString() {
+        return "Department [id=" + id + ", name=" + name + ", price=" + price + ", year=" + year + "]";
     }
 
 }
